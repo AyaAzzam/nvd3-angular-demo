@@ -24,7 +24,7 @@
 ```json
       "styles": [
         "styles.css",
-        "../node_modules/nvd3/build/nv.d3.css'"
+        "../node_modules/nvd3/build/nv.d3.css"
       ],
 ```
 OR add the css file to your code base for more customization.
