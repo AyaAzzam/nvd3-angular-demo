@@ -10,7 +10,7 @@
 
 
 ## Notes:
-* you need to include `d3` and `nvd3` in 'angular-cli.json' 
+* you need to include `d3` and `nvd3` in `angular-cli.json`
 
 ```json
        "scripts": [
@@ -19,15 +19,15 @@
       ],
 ```
 
-* you need to include `nvd3`style sheet in 'angular-cli.json' 
+* you need to include `nvd3`style sheet in `angular-cli.json`
 
 ```json
       "styles": [
         "styles.css",
-        "assets/styles/nv-d3.css"
+        "../node_modules/nvd3/build/nv.d3.css'"
       ],
 ```
-OR add it the css file to your code base for more customization.
+OR add the css file to your code base for more customization.
 
 
 This project was generated with angular-cli
